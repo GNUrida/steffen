@@ -20,4 +20,4 @@ rand gen = let
        	    	[firstCoin `mod` 5, secondCoin `mod` 5, thirdCoin `mod` 5, forthCoin `mod` 5]
 
 main :: IO ()
-main = newStdGen >>= \g -> putStrLn $ "Prof. Dr. Bernhard Steffen: " ++ (generate $ rand g)
+main = newStdGen >>= \g -> putStrLn $ "Mafi 1, 4. mündlicher Versuch Simulator.\nProf. Dr. Bernhard Steffen: " ++ (generate $ rand g)
